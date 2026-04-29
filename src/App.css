@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+
+    * {
+        box-sizing: border-box
+    }
+
+    a {
+        @apply no-underline;
+    }
+
+}
+
+@utility flex-center {
+
+    @apply flex justify-center items-center;
+
+}
